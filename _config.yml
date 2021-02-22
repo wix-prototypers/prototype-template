@@ -29,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: WixPrototypers
 youtube_username: WixPrototypers
-theme: prototype-repo
+remote_theme: https://github.com/wix-prototypers/prototype-repo
 # Build settings
 
 title-logo: /assets/logo.svg
