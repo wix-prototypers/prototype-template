@@ -35,4 +35,5 @@ remote_theme: https://github.com/wix-prototypers/prototypers_gh-pages-theme
 title-logo: /assets/logo.svg
 plugins:
    - jekyll-remote-theme
+   - jekyll-feed
 
