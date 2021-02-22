@@ -31,7 +31,7 @@ github_username: WixPrototypers
 youtube_username: WixPrototypers
 
 # Build settings
-remote_theme: arieloatwix/prototype-repo
+remote_theme: prototype-repo
 title-logo: /assets/logo.svg
 plugins:
   - jekyll-feed
