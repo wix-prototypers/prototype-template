@@ -34,6 +34,5 @@ youtube_username: WixPrototypers
 remote_theme: wix-prototypers/prototype-repo
 title-logo: /assets/logo.svg
 plugins:
-   - jekyll-remote-theme
    - jekyll-feed
 
