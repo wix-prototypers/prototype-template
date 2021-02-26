@@ -89,4 +89,5 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import "minima/base", "minima/layout", "minima/syntax-highlighting";
+@import "./minima/_base.scss", "./minima/_layout.scss",
+  "./minima/_syntax-highlighting.scss";
