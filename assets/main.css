@@ -1,3 +1,7 @@
+:root {
+  --prt-blue: #41c9d6;
+}
+
 .highlight .c {
   color: #998;
   font-style: italic;
@@ -350,7 +354,7 @@ h6 {
 }
 
 a {
-  color: #2a7ae2;
+  color: var(--prt-blue);
   text-decoration: none;
 }
 
@@ -375,7 +379,7 @@ a:hover {
 
 blockquote {
   color: #828282;
-  border-left: 4px solid #e8e8e8;
+  border-left: 4px solid #353535;
   padding-left: 15px;
   font-size: 1.125rem;
   font-style: italic;
@@ -395,7 +399,7 @@ code {
   font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono",
     "Liberation Mono", "Courier New", monospace;
   font-size: 0.9375em;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #353535;
   border-radius: 3px;
   background-color: #eef;
 }
@@ -469,7 +473,7 @@ table {
   text-align: left;
   color: #3f3f3f;
   border-collapse: collapse;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #353535;
 }
 
 table tr:nth-child(even) {
@@ -487,7 +491,7 @@ table th {
 }
 
 table td {
-  border: 1px solid #e8e8e8;
+  border: 1px solid #353535;
 }
 
 @media screen and (max-width: 800px) {
@@ -501,7 +505,7 @@ table td {
 
 .site-header {
   border-top: 5px solid #424242;
-  border-bottom: 1px solid #1px solid #353535;
+  border-bottom: 1px solid #353535;
   min-height: 55.95px;
   line-height: 54px;
   position: relative;
@@ -531,7 +535,7 @@ table td {
   top: 9px;
   right: 15px;
   background-color: #111;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #353535;
   border-radius: 5px;
   text-align: right;
 }
@@ -611,7 +615,7 @@ table td {
 }
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #353535;
   padding: 30px 0;
 }
 
@@ -799,7 +803,7 @@ table td {
 .pagination li a {
   display: block;
   padding: 7.5px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #353535;
 }
 
 .social-media-list li a:hover,
@@ -825,7 +829,7 @@ table td {
 }
 
 .pagination li div.pager-edge {
-  color: #e8e8e8;
+  color: #353535;
   border: 1px dashed;
 }
 
