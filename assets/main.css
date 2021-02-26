@@ -49,6 +49,12 @@ html {
   pointer-events: none !important;
   visibility: hidden;
 }
+.lb-tooltip-tt {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden;
+}
 
 html {
   font-size: 16px;
