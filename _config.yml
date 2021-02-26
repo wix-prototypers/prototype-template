@@ -6,11 +6,15 @@ about: >- # this means to ignore newlines until "baseurl:"
   Prototyping with code is a great way to present and test your UX concept.
   If you have an idea, question or a sudden desire to talk about JavaScript,
   please contact us.
-date_created: '%payload.pull_request.created_at%'
+
 github_username: wix-prototypers
 logo: /prototype-template/assets/logo.svg
-
+  actions:
+      - type: info
+        date_created: '%payload.repository.created_at%'
+        tags: '%payload.repository.topics%'
 # Prototype
 prototype_title: "Theme Manager"
-tags: '%payload.repository.topics%'
+
 company: ""
+date : %actions.info.date_created%'
