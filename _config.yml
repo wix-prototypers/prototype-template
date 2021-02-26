@@ -29,4 +29,4 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: wix-prototypers
 
 # Build settings
-logo: /assets/logo.svg
+logo: /prototype-template/assets/logo.svg
