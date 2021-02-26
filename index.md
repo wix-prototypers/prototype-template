@@ -4,4 +4,4 @@ layout: default
 
 ---
 
-yo
+yolo
