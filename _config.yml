@@ -12,4 +12,5 @@ logo: /prototype-template/assets/logo.svg
 
 # Prototype
 prototype_title: "Theme Manager"
+tags: '%payload.repository.topics%'
 company: ""
