@@ -32,5 +32,3 @@ youtube_username: WixPrototypers
 
 # Build settings
 title-logo: /assets/logo.svg
-plugins:
-  - jekyll-feed
