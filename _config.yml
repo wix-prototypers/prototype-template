@@ -15,6 +15,5 @@ logo: /prototype-template/assets/logo.svg
         tags: '%payload.repository.topics%'
 # Prototype
 prototype_title: "Theme Manager"
-
 company: ""
-date : %actions.info.date_created%'
+date_created : %actions.info.date_created%'
