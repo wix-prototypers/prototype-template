@@ -29,7 +29,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: WixPrototypers
 youtube_username: WixPrototypers
+<<<<<<< HEAD
 theme: wix-prototypers/prototype-repo
+=======
+theme: minima
+>>>>>>> c7236efcc3b9344b645fec47b069c1c3f4542037
 # Build settings
 
 title-logo: /assets/logo.svg
