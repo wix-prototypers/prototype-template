@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: default
 ---
+
 # Example Project
 
 ## description
