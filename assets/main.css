@@ -284,7 +284,7 @@ figure {
 }
 
 body {
-  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font: 400 16px/1.5 "Madefor" -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica,
     Arial, sans-serif;
   color: white;
