@@ -1,6 +1,12 @@
 :root {
   --prt-blue: #41c9d6;
 }
+.lb-share-tt {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden;
+}
 
 .highlight .c {
   color: #998;
