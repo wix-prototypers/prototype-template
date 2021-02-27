@@ -25,7 +25,7 @@
   </body>
   <script>
 
-        fetch("https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ page.path }}")
+        fetch("https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}")
       .then((response) => {
         return response.json();
       })
