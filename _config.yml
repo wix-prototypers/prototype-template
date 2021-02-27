@@ -9,10 +9,11 @@ about: >- # this means to ignore newlines until "baseurl:"
 
 github_username: wix-prototypers
 logo: /prototype-template/assets/logo.svg
-actions:
+  actions:
       - type: info
         date_created: '%payload.repository.created_at%'
         tags: '%payload.repository.topics%'
+
 # Prototype
 prototype_title: "Theme Manager"
 company: ""
