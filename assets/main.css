@@ -520,7 +520,9 @@ table td {
   letter-spacing: -1px;
   line-height: 1.15;
 }
-
+h1.main{
+  font-weight: 600;
+}
 @media screen and (min-width: 800px) {
   .post-title,
   .post-content h1 {
