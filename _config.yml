@@ -1,16 +1,15 @@
 # General
-
 title: Wix Prototypers
 email: prototypes@wix.com
 about: >- # this means to ignore newlines until "baseurl:"
   Prototyping with code is a great way to present and test your UX concept.
   If you have an idea, question or a sudden desire to talk about JavaScript,
   please contact us.
-
 github_username: wix-prototypers
 logo: /prototype-template/assets/logo.svg
 
-# Prototype
+# Prototype info
 prototype_title: "Theme Manager"
-company: ""
-
+company: "Editor"
+date_created: "February 2021"
+tags : "cool"
