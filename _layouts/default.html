@@ -12,11 +12,12 @@
       <div class="wrapper">
         <h1 class="main">{{ site.prototype_title }}</h1>
         <h2 class="sub">{{ site.company }}</h2>
+        #{{ site.github.public_repositories[0].topics | join: " #" }}
     
   
   
         <span class="likebtn-wrapper" data-theme="custom" data-icon_l="hrt1" data-icon_d="alrt1" data-icon_l_c_v="#41c9d6" data-icon_d_c_v="#41c9d6" data-identifier="item_1"></span>
-        {{ site.github.public_repositories[0].topics | join: " #" }}
+        
         <img src="./screenshot.png"></img>
 <script>
 (function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");
