@@ -24,10 +24,12 @@
 
   </body>
   <script>
+    async function getRepo(){
     await octokit.request('GET /orgs/{org}/repos', {
   org: 'org'
 }).then(response=>console.log(response))
-
+    }
+    getRepo();
   </script>
 
 </html>
