@@ -557,7 +557,7 @@ table td {
   height: 380px;
 }
 .sidebar{
-  max-width: 260px
+  min-width: 260px
 }
 
 .sidebar-item{
