@@ -521,7 +521,7 @@ table td {
   line-height: 1.15;
 }
 h1.main{
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 @media screen and (min-width: 800px) {
   .post-title,
