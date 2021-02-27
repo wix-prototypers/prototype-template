@@ -11,7 +11,7 @@
       <div class="wrapper">
         <h1 class="ptp-name">{{ site.prototype_title }}</h1>
         <h2 class="company-name">{{ site.company }}</h2>
-   <span>{{ site.github.public_repositories[0].date_created }}</span>
+   <span>{{ site.github.public_repositories[1].date_created }}</span>
         <div class="flex justify between main-content">
         <img class="ptp-screenshot" src="./screenshot.png"/>
         <ul class="sidebar flex column">
@@ -20,7 +20,7 @@
         Descroption
         </h3>
         <div class="sidebar-item-content">
-              {{ site.github.public_repositories[0].description }}
+              {{ site.github.public_repositories[1].description }}
         </div>
         </li>
           <li class="sidebar-item flex column">
@@ -28,7 +28,7 @@
         Tags
         </h3>
         <div class="sidebar-item-content">
-              #{{ site.github.public_repositories[0].topics | join: " #" }}
+              #{{ site.github.public_repositories[1].topics | join: " #" }}
         </div>
         </li>
         </div>
