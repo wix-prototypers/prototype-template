@@ -523,6 +523,11 @@ table td {
 h1.main{
   font-weight: 600 !important;
 }
+h2.sub{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 200 !important;
+}
 @media screen and (min-width: 800px) {
   .post-title,
   .post-content h1 {
