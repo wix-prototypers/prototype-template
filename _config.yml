@@ -16,4 +16,4 @@ logo: /prototype-template/assets/logo.svg
 # Prototype
 prototype_title: "Theme Manager"
 company: ""
-date_created : %actions.info.date_created%'
+date_created : '%actions.info.date_created%'
