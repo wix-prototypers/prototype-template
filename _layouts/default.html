@@ -6,17 +6,24 @@
   <body>
 
     {%- include header.html -%}
-
     <main class="page-content" aria-label="Content">
 
       <div class="wrapper">
         <h1 class="ptp-name">{{ site.prototype_title }}</h1>
         <h2 class="company-name">{{ site.company }}</h2>
-   
+   <span>{{ site.github.public_repositories[0].date_created }}</span>
         <div class="flex justify between main-content">
         <img class="ptp-screenshot" src="./screenshot.png"/>
         <ul class="sidebar flex column">
         <li class="sidebar-item flex column">
+        <h3 class="sidebar-item-title">
+        Descroption
+        </h3>
+        <div class="sidebar-item-content">
+              {{ site.github.public_repositories[0].description }}
+        </div>
+        </li>
+          <li class="sidebar-item flex column">
         <h3 class="sidebar-item-title">
         Tags
         </h3>
