@@ -11,7 +11,7 @@
       <div class="wrapper">
         <h1 class="ptp-name">{{ site.prototype_title }}</h1>
         <h2 class="company-name">{{ site.company }}</h2>
-   <span>{{ site.github.public_repositories[1].created_at }}</span>
+   <span>{{ site.github.public_repositories[1].created_at | date: "%-d %B %Y" }}</span>
         <div class="flex justify between main-content">
         <img class="ptp-screenshot" src="./screenshot.png"/>
         <ul class="sidebar flex column">
