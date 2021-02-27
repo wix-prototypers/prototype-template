@@ -539,11 +539,11 @@ table td {
   letter-spacing: -1px;
   line-height: 1.15;
 }
-h1.main{
+.ptp-name{
   font-size: 56px;
   font-weight: 900 !important;
 }
-h2.sub{
+.company-name{
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 200 !important;
