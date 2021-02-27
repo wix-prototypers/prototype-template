@@ -550,7 +550,7 @@ table td {
   font-weight: 200 !important;
   color:var(--prt-blue);
   letter-spacing: 2px;
-  margin-top:0px;
+  margin-top:-20px;
 }
 .ptp-screenshot{
   width: 650px;
