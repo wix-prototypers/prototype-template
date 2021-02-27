@@ -542,15 +542,24 @@ table td {
 .ptp-name{
   font-size: 56px;
   font-weight: 900 !important;
+  
 }
 .company-name{
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 200 !important;
   color:var(--prt-blue);
-  letter-spacing: 1px;
-
+  letter-spacing: 2px;
 }
+
+.sidebar-item-title{
+   font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 200 !important;
+  color:var(--prt-blue);
+  letter-spacing: 2px;
+}
+
 @media screen and (min-width: 800px) {
   .post-title,
   .post-content h1 {
