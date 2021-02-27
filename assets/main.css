@@ -552,8 +552,9 @@ table td {
   letter-spacing: 2px;
   margin-top:0px;
 }
-.sidebar{
-  width: 180px
+.ptp-screenshot{
+  width: 650px;
+  height: 380px;
 }
 .sidebar{
   width: 180px
