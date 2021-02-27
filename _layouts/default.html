@@ -23,6 +23,13 @@
     {%- include footer.html -%}
 
   </body>
+  <script>
+
+        fetch("https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ page.path }}")
+      .then((response) => {
+        return response.json();
+      })
+  </script>
 
 
 </html>
