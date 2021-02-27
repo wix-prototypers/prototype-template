@@ -213,6 +213,25 @@ pre > code {
   padding-left: 0;
 }
 
+.flex{
+  display:flex;
+}
+.row{
+  flex-direction:row;
+}
+.column{
+  flex-direction:column;
+}
+.justify-between{
+  justify-content:space-between
+}
+.justify-around{
+  justify-content:space-around;
+}
+.justify-center{
+  justify-content:space-around;
+}
+
 .highlight {
   border-radius: 3px;
   background: #eef;
